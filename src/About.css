@@ -1,0 +1,416 @@
+.heading{
+    font-size: 250px;
+    margin: 0;
+    width: 100%;
+}
+.about{
+    margin:0;
+}
+.rectangle{
+    width:100%;
+    height:auto;
+}
+
+.rect1 {
+    width:412px;
+    height: 698px;
+   
+}
+.rect2{
+     width:412px;
+    height: 698px;
+    
+}
+.rect3{
+     width:412px;
+    height: 698px;
+    
+}
+.im{
+    padding-top: 100px;
+    display: flex;
+    gap: 150px;
+    justify-content: space-between;
+}
+.bold-text{
+    padding-left: 50px;
+   
+}
+.im1{
+    position: relative;
+    display: inline-block;
+    width: auto;
+}
+.button1{
+    width:303px;
+    height: 51px;
+    background-color: rgb(180, 213, 182);
+    border-radius: 50px;
+    position: absolute;
+   top: 360px;
+   left: 65px;
+   cursor: pointer;
+  
+}
+.unorder{
+     display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.unorder b{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.im2{
+     position: relative;
+    display: inline-block;
+    width: auto;
+}
+.button2{
+    width:303px;
+    height: 51px;
+    background-color: rgb(245, 223, 207);
+    border-radius: 50px;
+    position: absolute;
+   top: 360px;
+   left: 65px;
+   cursor: pointer;
+}
+.im3{
+     position: relative;
+    display: inline-block;
+    width: auto;
+
+}
+.button3{
+    width:303px;
+    height: 51px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    position: absolute;
+   top: 360px;
+   left: 65px;
+   cursor: pointer;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-right: 160px;
+   
+}
+.para{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+.link{
+    color:gray;
+}
+.hidden{
+    display: none;
+}
+@media (max-width:1600px) {
+    .im{
+    padding-top: 100px;
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+}}
+@media (max-width:1500px) {
+    .im{
+    padding-top: 100px;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}}
+@media (max-width:1400px) {
+    .im{
+    padding-top: 100px;
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+}
+} 
+@media (max-width:1400px) {
+    .im{
+    padding-top: 100px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+   padding: 0;
+   margin-top: 50px;
+   padding: 20px;
+   
+}
+.para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    
+
+}
+} 
+
+@media (max-width:1100px) {
+    .heading{
+    font-size: 200px;
+    margin: 0;
+}
+.about{
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+}
+@media (max-width:900px) {
+    .heading{
+    font-size: 150px;
+    margin: 0;
+}
+.about{
+        margin-top: 100px;
+    }
+    
+}
+@media (max-width:700px) {
+    .heading{
+    font-size: 100px;
+    margin: 0;
+}
+    .about{
+        margin-top: 100px;
+    }
+     
+}
+
+
+@media (max-width:500px) {
+    .heading{
+    font-size: 70px;
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+    .about{
+        margin-top: 100px;
+    }
+    .rect1 {
+    width:312px;
+    height: 498px;
+   
+}
+.rect2{
+     width:312px;
+    height: 498px;
+    
+}
+.rect3{
+     width:312px;
+    height: 498px;
+    
+}
+.button1{
+    width:203px;
+    height: 41px;
+    background-color: rgb(180, 213, 182);
+    border-radius: 50px;
+    position: absolute;
+   top: 260px;
+   left: 65px;
+   cursor: pointer;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.button2{
+    width:203px;
+    height: 41px;
+    background-color: rgb(245, 223, 207);
+    border-radius: 50px;
+    position: absolute;
+   top: 260px;
+   left: 65px;
+   cursor: pointer;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.button3{
+    width:203px;
+    height: 41px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    position: absolute;
+   top: 260px;
+   left: 65px;
+   cursor: pointer;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+b{
+    display: none;
+    font-weight: bold;
+   
+}
+.vect{
+    display: none;
+}
+.hidden{
+    display: inline;
+    font-weight: bold;
+}
+
+   
+}
+
+@media (max-width:400px) {
+    .heading{
+    font-size: 50px;
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+    .about{
+        margin-top: 100px;
+    }
+       .rect1 {
+    width:212px;
+    height: 348px;
+   
+}
+.rect2{
+     width:212px;
+    height: 348px;
+    
+}
+.rect3{
+     width:212px;
+    height: 348px;
+    
+}
+.button1{
+    width:153px;
+    height: 31px;
+    background-color: rgb(180, 213, 182);
+    border-radius: 50px;
+    position: absolute;
+   top: 160px;
+   left: 35px;
+   cursor: pointer;
+}
+.button2{
+    width:153px;
+    height:31px;
+    background-color: rgb(245, 223, 207);
+    border-radius: 50px;
+    position: absolute;
+    top: 160px;
+   left: 35px;
+   cursor: pointer;
+}
+.button3{
+     width:153px;
+    height: 31px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    position: absolute;
+    top: 160px;
+   left: 35px;
+   cursor: pointer;
+}
+   
+.bold-text{
+    padding-left: 0;
+    font-size: 14px;
+   
+}
+}
+
+@media (max-width:300px) {
+    .heading{
+    font-size: 30px;
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+    .about{
+        margin-top: 100px;
+    }
+       .rect1 {
+    width:162px;
+    height: 298px;
+   
+}
+.rect2{
+    width:162px;
+    height: 298px;
+    
+}
+.rect3{
+    width:162px;
+    height: 298px;
+    
+}
+.button1{
+    width:103px;
+    height: 21px;
+    background-color: rgb(180, 213, 182);
+    border-radius: 50px;
+    position: absolute;
+   top: 160px;
+   left: 35px;
+   cursor: pointer;
+}
+.button2{
+    width:103px;
+    height: 21px;
+    background-color: rgb(245, 223, 207);
+    border-radius: 50px;
+    position: absolute;
+    top: 160px;
+   left: 35px;
+   cursor: pointer;
+}
+.button3{
+     width:103px;
+    height: 21px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    position: absolute;
+    top: 160px;
+   left: 35px;
+   cursor: pointer;
+}
+.hidden{
+    display: none;
+}
+.unorder li{
+    display: none;
+}
+
+   
+}
+
+
+
+
+

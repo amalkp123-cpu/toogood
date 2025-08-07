@@ -1,0 +1,145 @@
+.kit{
+    width: 486px;
+    height: 486px;
+    padding: 30px;
+}
+.bag{
+     width: 486px;
+    height: 486px;
+     padding: 30px;
+    
+}
+.hand{
+     width: 486px;
+    height: 486px;
+}
+.book{
+     width: 486px;
+    height: 486px;
+}
+.product{
+    display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+   gap: 100px;
+  
+   
+   
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    font-size: 10px;
+}
+.product1, .product2 ,.product3, .product4{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0;
+}
+.product p{
+    margin: 0;
+    font-weight: lighter;
+    
+    
+}
+@media (max-width:1200px) {
+    .product{
+         display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+        gap: 20px;
+    }
+}
+@media (max-width:1100px) {
+    .product{
+         display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+        gap: 0px;
+        margin: 50px;
+    }
+}
+@media (max-width:1100px) {
+    .product{
+         display: grid;
+   grid-template-columns: 1fr ;
+   grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 0px;
+        
+    }
+}
+@media(max-width:500px) {
+    .kit{
+    width: 386px;
+    height: 386px;
+    padding: 30px;
+}
+.bag{
+     width: 386px;
+    height: 386px;
+     padding: 30px;
+    
+}
+.hand{
+     width: 386px;
+    height: 386px;
+}
+.book{
+     width: 386px;
+    height: 386px;
+}
+}  
+
+@media(max-width:400px) {
+    .kit{
+    width: 286px;
+    height: 286px;
+    padding: 30px;
+}
+.bag{
+     width: 286px;
+    height: 286px;
+     padding: 30px;
+    
+}
+.hand{
+     width: 286px;
+    height: 286px;
+}
+.book{
+     width: 286px;
+    height: 286px;
+}
+}  
+
+
+@media(max-width:300px) {
+    .kit{
+    width: 186px;
+    height: 186px;
+    padding: 30px;
+}
+.bag{
+     width: 186px;
+    height: 186px;
+     padding: 30px;
+    
+}
+.hand{
+     width: 186px;
+    height: 186px;
+}
+.book{
+     width: 186px;
+    height: 186px;
+}
+}  
+
+
+
+
+

@@ -1,0 +1,138 @@
+.text h1{
+    font-size: 54px;
+    width: 840px;
+}
+.button{
+    width: 289px;
+    height: 57px;
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.text p{
+    width: 250px;
+  
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.text-img a{
+    color:gray;
+}
+.image1 , .image2 {
+    width: 405px;
+    height: 600px;
+}
+.hello{
+    display: flex;
+    gap: 10px;
+}
+.text-img{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 250px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.long{
+    width: 400px;
+}
+.impact{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+@media(max-width:1300px){
+  .long{
+    width: auto;
+}
+}
+@media(max-width:1000px){
+    .hello{
+        display: flex;
+        flex-direction: column;
+    }
+    .text-img{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+    }
+    .impact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+@media (max-width:900px) {
+    .text h1{
+        width: auto;
+        padding: 10px;
+    }
+}
+@media(max-width:500px){
+    .image1,.image2{
+        width: 350px;
+        height: 500px;
+    }
+    .text h1{
+        font-size:40px ;
+        padding: 10px;
+    }
+}
+@media(max-width:400px){
+    .image1,.image2{
+        width: 250px;
+        height: 400px;
+    }
+    .text h1{
+        font-size:30px ;
+        padding: 10px;
+    }
+    .button{
+    width: 200px;
+    height: 50px;
+border: none;
+font-size: 10px;}
+
+.text p{
+    width: auto;
+  
+}
+}
+@media (max-width:300px) {
+    .impact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .image1,.image2{
+        width: 150px;
+        height: 250px;
+    }
+     .text h1{
+        font-size:20px ;
+        padding: 10px;
+    }.button{
+    width: 150px;
+    height: 40px;
+border: none;
+font-size: 10px;}
+
+.text p{
+    width: auto;
+    font-size: 14px;
+}
+    
+}
