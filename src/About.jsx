@@ -4,7 +4,7 @@ import rect from './assets/Rectangle.jpg'
 import rect1 from './assets/Rectangle2.avif'
 import rect2 from './assets/Rectangle3.avif'
 import rect3 from './assets/Rectangle220.avif'
-import vector from './assets/vector.svg'
+import vector from './assets/Vector.svg'
 
 const About = () => {
   return (
