@@ -1,9 +1,9 @@
 import React from 'react'
 import './About.css'
 import rect from './assets/Rectangle.jpg'
-import rect1 from './assets/rectangle 2.avif'
-import rect2 from './assets/rectangle 3.avif'
-import rect3 from './assets/rectangle 220.avif'
+import rect1 from './assets/rectangle2.avif'
+import rect2 from './assets/rectangle3.avif'
+import rect3 from './assets/rectangle220.avif'
 import vector from './assets/vector.svg'
 
 const About = () => {
